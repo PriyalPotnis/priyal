@@ -1,0 +1,50 @@
+List:<interface> method - add()
+
+ArrayList and LinkedList
+1) Accepts Duplicate Values. Duplicates are allowed
+2) Ordered Data/ Use for Ordering/ Correct Order Data
+
+Set:<interface> - method - add(),remove(),removeAll()
+Duplicates are not allowed
+	HashSet
+		Random Order
+
+	LinkedHashSet
+		Ordering Manner
+
+Generic - Type Safe
+
+Iterator
+
+Map - Key Value Pair
+
+	method - put(), delete(), deleteAll() [not add()]
+
+	HashMap
+		Takes Duplicate Values
+		It Takes Latest Value in sorting order
+		Accept Null Value
+		Faster than Hashtable
+		
+	
+	LinkedHashMap
+		Order As Key Order
+		Takes Duplicate Values
+		It Takes Latest Value in sorting order
+	
+    
+Hashtable
+	Doesnt accepts null value
+	Synchronized 
+	Slower
+
+TreeMap [put()]
+	It is same as HashMap instead maintains ascending order.
+
+	It cannot have null key but can have multiple null values.
+
+	It contains only unique elements
+
+TreeSet [add()]
+	Ascending Order
+	Overwrites
